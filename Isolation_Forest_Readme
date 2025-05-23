@@ -1,0 +1,5 @@
+Isolation forest is a use of a form of decision trees for unsupervised learning:
+It makes use of every data point and create leaf nodes by splitting through DTs, this is used to isolate the outlier as a leaf node.
+The number of steps used to isolate the node is essentially the determining factor between a regular point and an outlier. 
+The anomaly score that is calculated makes use of the average search depth for a point and compares it with the overall average search depth.
+This helps in determining if the score for a point is classified as an anomaly or not, reaching our conclusion.
